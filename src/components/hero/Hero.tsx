@@ -21,19 +21,19 @@ export function Hero() {
           {/* LEFT SIDE — TEXT */}
           <div className="max-w-md text-white ">
             <h1 className="text-4xl font-bold leading-tight">
-              UniTrade
+              Heading
             </h1>
             <h1 className="text-4xl font-bold leading-tight">
-              Governance
+              Heading-2
             </h1>
 
             <div className = "flex items-center gap-4 ">  {/*removed px-8 py-6*/}
               <img src={icon} alt="icon" className="w-[43.98px] h-[43.04px] flex-shrink-0 mt-4"/>
               <div className="leading-tight">
                 <p className="mt-4 ">
-                    UNITRADE tokens represent voting
+                    TRADE tokens represent voting
                 </p>
-                <p>shares in UniTrade governance.</p>
+                <p>shares in Trade governance.</p>
               </div>
             </div>
             
@@ -44,8 +44,6 @@ export function Hero() {
       </div>
       
       {/* <HeroNotifications /> */}
-    </section>
-    
-    
+    </section>    
   );
 }
